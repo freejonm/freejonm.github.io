@@ -13,3 +13,25 @@ img{
     height: auto;
     border-radius: 30px 10px 20px 10px;
 }
+
+a{
+    padding: 0px;
+}
+
+.jumbotron {
+    background: #358CCE;
+    color: #FFF;
+    border-radius: 0px;
+    }
+
+.jumbotron-sm { 
+    padding-top: 24px;
+    padding-bottom: 24px; }
+   
+.jumbotron small {
+    color: #FFF;
+    }
+    
+.h1 small {
+    font-size: 24px;
+    }
