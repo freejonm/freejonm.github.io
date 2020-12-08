@@ -4,9 +4,6 @@
     font-size: small;
 }
 
-.col-md-12{
-    text-align: center;
-}
 
 img{
     width: 100%;
@@ -29,4 +26,5 @@ a{
 
 .fa:hover{
     color: blue;
+    size: 1.5x;
 }
