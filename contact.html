@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,7 +17,9 @@
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
 
+<header>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="freejonm.github.io">Jon Free, Ph.D.</a>
@@ -55,46 +57,31 @@
             <section class="col-md-12">
                 <section class="well well-sm">
                     <form>
-                    <section class="row">
+                      <section class="row">
                         <section class="col-md-12">
-                            <section class="form-group">
-                                <label for="name">
-                                    Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                            </section>
-                            <section class="form-group">
-                                <label for="email">
-                                    Email Address</label>
-                                <section class="input-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
-                                </section>
-                            <section class="form-group">
-                                <label for="subject">
-                                    Subject</label>
-                                <select id="subject" name="subject" class="form-control" required="required">
-                                    <option value="na" selected="">Choose One:</option>
+                                <label for="name">Name</label>
+                                  <input type="text" class="form-control" id="name" placeholder="Enter name" required="required">
+                                <label for="email">Email Address</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Enter email" required="required">
+                                <label for="subject">Subject</label>
+                                  <select id="subject" name="subject" class="form-control" required="required">
+                                    <option value="" selected="">Choose One:</option>
                                     <option value="service">Hi, how are you?</option>
-                            </section>
-                        </section>
-                        <section class="col-md-12">
-                            <section class="form-group">
-                                <label for="name">
-                                    Message</label>
-                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                  </select>
+                                <label for="message">Message</label>
+                                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
                                     placeholder="Message"></textarea>
-                            </section>
                         </section>
                         <section class="col-md-12">
                             <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
                                 Send Message</button>
-                            </section>
                         </section>
-                    </section>
+                      </section>
                     </form>
                 </section>
             </section>
         </section>
-    </section>
+    
     
     <!-- Bootstrap scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
