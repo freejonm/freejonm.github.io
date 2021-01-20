@@ -4,7 +4,9 @@
     font-size: small;
 }
 
-
+body{
+    background-color: whitesmoke;
+}
 img{
     width: 100%;
     height: auto;
@@ -13,6 +15,11 @@ img{
 
 a{
     padding: 0px;
+}
+
+nav {
+    background-color: grey;
+    border: 1px solid lightblue;
 }
 
 .fa{
@@ -32,4 +39,15 @@ a{
 
 footer{
     align-content: center; 
+}
+
+.card {
+    text-align: center;
+    height: 100%;
+    background-color: white;
+}
+.card-title {
+    font-size: large;
+    font-weight: bolder;
+    margin: 5px;
 }
