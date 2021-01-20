@@ -22,6 +22,10 @@ nav {
     border: 1px solid lightblue;
 }
 
+.navbar {
+    background-color: white;
+}
+
 .fa{
   padding: 20px;
   width: 50px;
